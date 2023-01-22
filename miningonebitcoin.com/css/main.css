@@ -1,0 +1,1581 @@
+@font-face {
+    font-family: "Circe";
+    src: url(../font/Circe.otf);
+}
+
+@font-face {
+    font-family: "CirceBold";
+    src: url(../font/CirceBold.otf);
+}
+
+@font-face {
+    font-family: "CirceExtraBold";
+    src: url(../font/CirceExtraBold.otf);
+}
+
+@font-face {
+    font-family: "CirceLight";
+    src: url(../font/CirceLight.otf);
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+.wrapper {
+    max-width: 1920px !important;
+    overflow: hidden !important;
+    text-align: center;
+    padding-top: 0;
+    margin: auto;
+    background-color: #fff;
+}
+
+.left {
+    text-align: left !important;
+}
+
+.right {
+    text-align: right !important;
+}
+
+a {
+    color: inherit;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatRight:after,
+.floatLeft:after {
+    clear: both;
+}
+
+.headerMain {
+    background: url(../img/header.png) center top no-repeat;
+}
+
+.logo {
+    margin-top: 40px;
+}
+
+.headerMenu {
+    padding-top: 57px;
+}
+
+.headerMenu a {
+    font-family: "CirceBold";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.headerMenu a:hover {
+    border-bottom: #ffc200 3px solid;
+    text-decoration: none;
+}
+
+.loginBut {
+    margin-top: 49px;
+    font-family: "CirceBold";
+    font-size: 16px !important;
+    color: #000000;
+    border-radius: 30px;
+    width: 107px;
+    height: 33px;
+    margin-left: 13px;
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+    text-transform: uppercase;
+    BACKGROUND: #ffffff;
+    FONT-WEIGHT: BOLD;
+}
+
+.loginBut:hover {
+    color: #02225c;
+    background: #ffc200;
+    text-decoration: none;
+    border: 1px solid #ffc200;
+}
+
+.headerTitle {
+    padding-top: 200px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.headerTitle .smallTitle {
+    text-transform: uppercase;
+    color: #02225c;
+    font-size: 46px;
+    font-family: "CirceExtraBold";
+    margin-bottom: 0;
+}
+
+.headerTitle .title {
+    color: #0067fb;
+    text-transform: uppercase;
+    font-size: 31px;
+    font-family: "CirceExtraBold";
+    line-height: 40px;
+}
+
+.headerTitle .text {
+    font-family: "CirceLight";
+    color: #000;
+    font-size: 20px;
+}
+
+.blueBut {
+    font-family: "CirceExtraBold";
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    background: #02225c;
+    border-radius: 35px;
+    margin-right: 40px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.blueBut:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.createAcc {
+    width: 230px;
+}
+
+.headerCA {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.headerCA ul {
+    padding-top: 10px;
+}
+
+.headerAbout {
+    padding-top: 138px;
+    background: url(../img/headerAbout.png) center 100px no-repeat;
+    min-height: 591px;
+    margin-bottom: 10px;
+}
+
+.headerAbout .title {
+    font-family: "CirceExtraBold";
+    color: #02225c;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.lineheaderAbout {}
+
+.headerAbout .text {
+    font-family: "CirceLight";
+    font-size: 20px;
+    color: #02225c;
+    line-height: 23px;
+}
+
+.transpBut {
+    font-family: "CirceExtraBold";
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 14px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #02225c;
+    border-radius: 35px;
+    color: #02225c;
+    margin-top: 38px;
+    height: 48px;
+}
+
+.transpBut:hover {
+    color: #fff;
+    background: #02225c;
+    text-decoration: none;
+}
+
+.moreBut {
+    width: 230px;
+}
+
+.planCalc {
+    background: url(../img/calcBg.png) center 120px no-repeat;
+}
+
+.logo2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.calcInfo {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.calcInfo .title {
+    font-family: "CirceExtraBold";
+    font-weight: bold;
+    font-size: 46px;
+    color: #fff;
+    line-height: 45px;
+    letter-spacing: -1px;
+    margin-bottom: 40px;
+}
+
+.calcInfo .text {
+    font-family: "CirceLight";
+    font-size: 20px;
+    color: #fff;
+}
+
+.calcAmo {
+    font-size: 20px;
+    color: #fff;
+    font-family: "CirceLight";
+}
+
+.calcInp {
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #fff;
+    background: url(../img/inputCalc.png) 10px 2px no-repeat;
+    text-align: center;
+    max-width: 192px;
+}
+
+.calcRes td {
+    vertical-align: top;
+}
+
+.calcRes {
+    border-spacing: 0 50px;
+    border-collapse: separate;
+}
+
+.calcProf {
+    text-transform: uppercase;
+    font-family: "CirceBold";
+    font-size: 16px;
+    letter-spacing: -1px;
+    text-align: right;
+    border-right: 1px solid #fff;
+    padding: 0 13px 0 0;
+    font-weight: bold;
+    color: #fff;
+    white-space: pre;
+}
+
+.calcSum {
+    text-align: left;
+    font-family: "CirceExtraBold";
+    font-size: 48px;
+    color: #ffc200;
+    letter-spacing: -1px;
+    line-height: 43px;
+    padding: 0 50px 30px 18px;
+}
+
+.light {
+    font-family: "CirceLight";
+    font-size: 33px;
+    line-height: 30px;
+}
+
+.planRow {
+    -webkit-box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    background: #fff;
+    border-radius: 35px;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+
+.planRow .title {
+    font-family: "CirceExtraBold";
+    font-size: 28px;
+    color: #02225c;
+}
+
+.planPerc,
+planD {
+    font-family: "CirceBold";
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+
+.planPerc {
+    color: #42a53b;
+    font-size: 38px;
+}
+
+.planD {
+    color: #bfbfc0;
+    font-size: 16px;
+}
+
+.planRow .text {
+    font-family: "CirceLight";
+    color: #42a53b;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: -1px;
+    FONT-WEIGHT: BOLD;
+    width: 210px;
+}
+
+.btext {
+    font-family: "CirceBold";
+    font-weight: bold;
+}
+
+.planBut {
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.planRow img {
+    margin: 25px 0 35px 0;
+}
+
+.planRow .col-xs-4:nth-child(2) {
+    border-left: 2px #f5f6f9 solid;
+    border-right: 2px #f5f6f9 solid;
+}
+
+.psTable {
+    margin-top: 75px;
+}
+
+.psTable td {
+    padding: 22px 44px !important;
+}
+
+.lineSep {
+    background: #f5f6f9;
+    height: 2px;
+    margin-bottom: 70px;
+}
+
+.mainLBTile {
+    font-family: "CirceExtraBold";
+    font-size: 46px;
+    line-height: 45px;
+    letter-spacing: -1px;
+    color: #02225c;
+}
+
+.levelText {
+    font-size: 20px;
+    color: #999999;
+    font-family: "CirceLight";
+}
+
+.statBlock {
+    background: url(../img/mac.png) center top no-repeat;
+    width: 870px;
+    height: 502px;
+    color: #ffc200;
+    font-size: 31px;
+    line-height: 26px;
+    font-family: "CirceBold";
+    font-weight: bold;
+    padding-top: 230px;
+}
+
+.levelCirc {
+    height: 80px;
+    width: 80px;
+    padding-top: 22px;
+    text-align: center;
+    font-family: "CirceBold";
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 100px;
+}
+
+.levelCircB {
+    background: #02225c;
+    color: #ffc200;
+}
+
+.levelCircY {
+    background: #ffc200;
+    color: #02225c;
+    margin: auto;
+}
+
+.statBlock .title {
+    font-family: "CirceBold";
+    font-weight: bold;
+    color: #02225c;
+    font-size: 20px;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+
+.statBlock ul {
+    margin: auto;
+    width: 775px;
+    padding-right: 28px;
+}
+
+.statBlock li {
+    width: 32%;
+    padding: 0;
+}
+
+.levelTable {
+    margin: 60px 0;
+}
+
+.levelTable td:first-child {
+    padding-left: 66px;
+}
+
+.levelTable td:last-child {
+    padding-right: 66px;
+}
+
+.levelL {
+    font-size: 16px;
+    color: #d2d5dc;
+    font-family: "CirceBold";
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: -1px;
+    margin: 11px 0 28px;
+}
+
+.firstLvl {
+    margin-top: 15px;
+}
+
+.mainGrey {
+    background: #f4f5f8;
+}
+
+.cert {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.cert .title {
+    font-family: "CirceExtraBold";
+    font-size: 46px;
+    line-height: 45px;
+    letter-spacing: -1px;
+    color: #02225c;
+    margin: 36px 0 45px;
+    text-transform: uppercase;
+}
+
+.cert .text {
+    font-family: "CirceLight";
+    color: #999999;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.checkCert {
+    font-family: "CirceLight";
+    font-size: 24px;
+    color: #84b8df;
+}
+
+.checkCert:hover {
+    text-decoration: none;
+}
+
+.certInfo {
+    font-family: "CirceLight";
+    font-size: 20px;
+    color: #02225c;
+    margin-top: 75px;
+}
+
+.certInfo li {
+    vertical-align: top;
+    margin-bottom: 25px;
+}
+
+.certInfo img {
+    margin-right: 10px;
+}
+
+.yellowLine {
+    font-size: 30px;
+    font-family: "CirceLight";
+    color: #02225c;
+    background: #ffc200;
+    padding: 30px 0;
+}
+
+.creatAccBot {
+    width: 230px;
+}
+
+.footer {
+    background: #02225c;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.footerMenu {
+    margin-bottom: 65px;
+}
+
+.footerMenu a {
+    font-family: "CirceBold";
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footerMenu a:hover {
+    border-bottom: #ffc200 3px solid;
+    text-decoration: none;
+}
+
+.footerLine {
+    background: #0f2d64;
+    height: 2px;
+}
+
+.socFooter {
+    margin: 30px 0;
+}
+
+.socFooter li {
+    vertical-align: middle;
+    padding: 0 40px;
+}
+
+.footerInfo li {
+    text-transform: uppercase;
+    font-family: "CirceBold";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    padding: 25px 85px 30px;
+    vertical-align: middle;
+}
+
+.footerInfo a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.copy {
+    font-family: "CirceLight";
+    font-size: 20px;
+    color: #435279;
+    padding-bottom: 40px;
+}
+
+/*invest*/
+
+.investWrapper {
+    background: #f4f5f8;
+}
+
+.headerInvest {
+    height: 130px;
+    background: #fff;
+}
+
+.headerInvest .headerMenu>li>a {
+    color: #02225c;
+}
+
+.headerInvest .loginBut {
+    color: #02225c;
+    border: #02225c 2px solid;
+}
+
+.headerInvest .loginBut:hover {
+    border: #fff 2px solid;
+}
+
+.pageTitleBig {
+    font-family: "CirceExtraBold";
+    font-size: 80px;
+    letter-spacing: -1px;
+    line-height: 0;
+    margin: 140px 0 0;
+    color: #e4e6eb;
+    text-transform: uppercase;
+}
+
+.blueTitle {
+    font-family: "CirceExtraBold";
+    font-size: 45px;
+    line-height: 45px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #02225c;
+}
+
+.greyText {
+    font-family: 'Open Sans', sans-serif;
+    color: #363636;
+    font-size: 20px;
+}
+
+.investPlan {
+    margin-top: 55px;
+}
+
+.investRowCalc {
+    margin-top: 65px;
+}
+
+.investRowCalc .calcAmo {
+    color: #02225c;
+}
+
+.investRowCalc .calcInp {
+    border-bottom: 1px solid #02225c;
+    background: url(../img/inputCalcB.png) 10px 2px no-repeat;
+}
+
+.calcResInv td {
+    border: 0;
+    text-align: left;
+    padding-left: 0;
+}
+
+.investRowCalc .calcProf {
+    color: #02225c;
+}
+
+.calcResInv {
+    margin-top: 35px;
+}
+
+.investLine {
+    background: #ebedf2;
+    height: 2px;
+    margin: 75px 0;
+}
+
+.invStepTitle {
+    font-size: 30px;
+    color: #02225c;
+    font-family: "CirceExtraBold";
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.invStepPad {
+    padding-top: 15px;
+}
+
+.invStepLine {
+    height: 4px;
+    width: 48px;
+    background: #02225c;
+    margin: 32px 0;
+}
+
+.stepRow {
+    margin-bottom: 90px;
+}
+
+.stepImg {
+    margin-top: 190px;
+}
+
+.invQuot {
+    background: #fff;
+    border-radius: 20px;
+    padding: 33px 33px 20px 33px;
+    font-family: "CirceLight";
+    font-size: 24px;
+    color: #02225c;
+    overflow-y: hidden;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+}
+
+.invQuot .floatLeft {
+    height: 100%;
+    width: 9px;
+    position: absolute;
+    background: #ffc200;
+    top: 0;
+    left: 0;
+}
+
+/*about*/
+
+.aboutImgDiv {
+    font-family: "CirceLight";
+    font-size: 24px;
+    color: #02225c;
+    padding: 45px;
+    background: #ffc200;
+    border-radius: 20px;
+    width: 400px;
+    margin-top: -400px;
+    position: relative;
+    z-index: 100;
+}
+
+.aboutImg {
+    margin: 60px 0 90px;
+}
+
+.aboutImg img {
+    position: relative;
+    z-index: 99;
+}
+
+/*faq*/
+
+.faq-list {
+    color: #02225c;
+    font-size: 24px;
+    font-family: "CirceLight";
+    line-height: 27px;
+    margin-top: 55px;
+    margin-bottom: 110px;
+}
+
+.faq-list .title {
+    font-family: "CirceBold";
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.faq-list li {
+    border-bottom: #ebedf2 2px solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.faq-list li:before {
+    content: url(../img/faqList.png);
+    position: absolute;
+    left: -2px;
+}
+
+.faqInfo {
+    background: #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    padding: 60px 65px 80px 65px;
+    width: 435px;
+    margin-top: 55px;
+}
+
+.faqInfo .title {
+    font-family: "CirceExtraBold";
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 30px 0 60px;
+}
+
+.faqInfo a {
+    color: #84b8df;
+    font-size: 24px;
+    font-family: "CirceLight";
+    text-decoration: underline;
+}
+
+/*login*/
+
+.loginBg {}
+
+.loginWrapper {
+    min-height: 1000px;
+    background: url(../img/logbg.jpg) right top no-repeat;
+}
+
+.loginLogo {
+    margin-top: 310px;
+}
+
+.loginTitle {
+    font-family: "CirceExtraBold";
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #000;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+
+.loginMarg {
+    margin-top: 215px;
+}
+
+.loginForm {
+    padding-top: 50px;
+}
+
+.loginInt {
+    width: 265px;
+    height: 48px;
+    border: #ccd3dd 1px solid;
+    color: #000;
+    font-size: 20px;
+    font-family: "CirceLight";
+    letter-spacing: 0;
+    padding-left: 42px;
+    border-radius: 50px;
+    margin: 0 5px 20px 5px;
+}
+
+.loginInt:focus {
+    outline-width: 0px;
+}
+
+.logInp {
+    background: url(../img/logman.png) 13px 13px no-repeat;
+}
+
+.pasInp {
+    background: url(../img/logpas.png) 13px 13px no-repeat;
+}
+
+.mailInp {
+    background: url(../img/logmail.png) 13px 13px no-repeat;
+}
+
+.shInp {
+    background: url(../img/logsh.png) 13px 13px no-repeat;
+}
+
+.penInp {
+    background: url(../img/logpen.png) 13px 13px no-repeat;
+}
+
+.loginInpBut {
+    width: 200px;
+    border: 0;
+    padding-top: 7px;
+    margin: 30px auto;
+}
+
+.loginInfo a {
+    font-family: "CirceLight";
+    color: #84b8df;
+    font-size: 24px;
+    text-decoration: underline;
+    letter-spacing: 0;
+}
+
+.regMarg {
+    margin-top: 90px;
+}
+
+.regRef {
+    width: 550px;
+    margin: 10px auto 30px;
+    border-radius: 50px;
+    height: 50px;
+    background: url(../img/refBg.png) repeat-x;
+    padding: 13px 22px 0 22px;
+}
+
+.regRef .col-xs-6:first-child {
+    font-family: "CirceLight";
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 0;
+}
+
+.regRef .col-xs-6:last-child {
+    font-family: "CirceBold";
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+.control {
+    font-family: "CirceLight";
+    display: block;
+    position: relative;
+    padding-left: 24px;
+    padding-top: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    width: 645px;
+    margin: auto
+}
+
+.control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.control_indicator {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background: #ffffff;
+    border: 1px solid #ccd3dd;
+}
+
+.control-radio .control_indicator {
+    border-radius: undefined%;
+}
+
+.control:hover input~.control_indicator,
+.control input:focus~.control_indicator {
+    background: #ffffff;
+}
+
+.control input:checked~.control_indicator {
+    background: #ffffff;
+}
+
+.control:hover input:not([disabled]):checked~.control_indicator,
+.control input:checked:focus~.control_indicator {
+    background: #ffffff;
+}
+
+.control input:disabled~.control_indicator {
+    background: #ffffff;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.control_indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.control input:checked~.control_indicator:after {
+    display: block;
+}
+
+.control-checkbox .control_indicator:after {
+    left: 6px;
+    top: 2px;
+    width: 3px;
+    height: 8px;
+    border: solid #000000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.control-checkbox input:disabled~.control_indicator:after {
+    border-color: #ffffff;
+}
+
+.checkA {
+    text-decoration: underline;
+    color: #84b8df;
+}
+
+/*support*/
+
+.supportBox {
+    background: #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    padding-bottom: 40px;
+    margin-top: 70px;
+    margin-bottom: 115px;
+}
+
+.supMarg {
+    margin-top: 55px;
+}
+
+.textAInp {
+    resize: none;
+    width: 95%;
+    padding-top: 9px;
+    min-height: 190px;
+    border-radius: 20px;
+}
+
+.supList {
+    font-family: "CirceLight";
+    font-size: 24px;
+    color: #02225c;
+    letter-spacing: 0;
+    padding-left: 65px;
+    padding-right: 35px;
+    padding-top: 215px;
+}
+
+.supList img {
+    margin-right: 35px;
+}
+
+.supList td {
+    vertical-align: middle;
+    padding: 8px 8px 60px;
+}
+
+.supList tr:first-child>td:first-child {
+    vertical-align: top;
+}
+
+.subUnd {
+    text-decoration: underline;
+}
+
+/*cabinet*/
+
+.headerLine {
+    border-bottom: 1px solid #dbdfe8;
+}
+
+.headerMenuT {
+    height: 130px;
+}
+
+.headerMenuT td {
+    vertical-align: middle;
+    padding: 50px 0 20px 0 !important;
+}
+
+.headerMenuT a {
+    font-family: "CirceBold";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #02225c;
+    letter-spacing: -1px;
+    line-height: 20px;
+    padding-bottom: 51px;
+}
+
+.headerMenuT a:hover {
+    text-decoration: none;
+}
+
+.headerMenuT img {
+    margin-right: 10px;
+}
+
+.lastStat {
+    font-size: 20px;
+    letter-spacing: 0;
+    font-family: "CirceLight";
+    color: #121923;
+    margin: 60px 0 30px;
+}
+
+.lastStat span {
+    font-family: "CirceBold";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.whiteRadBg {
+    background: #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 50px 17px rgba(0, 0, 0, 0.07);
+    padding: 40px 35px 40px 50px;
+    margin-bottom: 30px;
+}
+
+.cabTitle {
+    color: #02225c;
+    font-family: "CirceBold";
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: -1px;
+}
+
+.bigText {
+    color: #ffc200;
+    font-family: "CirceBold";
+    font-weight: bold;
+    font-size: 48px;
+    ;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: -1px;
+}
+
+.makeDep {
+    width: 230px;
+    margin-top: 40px;
+}
+
+.whiteLeft {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.whiteRight {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+.mainCabStat {
+    height: 160px;
+    padding: 40px 15px;
+}
+
+.mainCabStat img {
+    height: 180px;
+    margin-top: -52px;
+    margin-left: -10px;
+}
+
+.persRefText {
+    font-family: "CirceLight";
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #cbced6;
+    padding-top: 13px;
+}
+
+.reflinkInp {
+    font-family: "CirceLight";
+    font-size: 20px;
+    color: #121923;
+    height: 50px;
+    letter-spacing: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
+.mainCabRefRow {
+    margin: 20px 0 100px;
+}
+
+.mainRefBut {
+    width: 230px;
+}
+
+.mainRefBut img {
+    margin-right: 10px;
+}
+
+.custSel {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/selectIco.png) 90% 20px no-repeat, #fff;
+    padding-left: 23px;
+    height: 50px;
+    border-radius: 50px;
+    color: #121923;
+    font-family: "CirceLight";
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.selDef {
+    min-width: 270px;
+}
+
+.selDesc {
+    color: #bec2ce;
+    font-family: "CirceLight";
+    font-size: 20px;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.selDate {
+    min-width: 125px;
+}
+
+.selTable td {
+    padding: 8px 15px 0 0;
+}
+
+.searchBut {
+    margin-top: 85px;
+}
+
+.historyLine {
+    border-bottom: 2px #ebedf2 solid;
+    margin: 84px 0 52px;
+}
+
+.histHead {
+    font-family: "CirceBold";
+    font-weight: bold;
+    color: #bec2ce;
+    line-height: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.histHeadPad {
+    text-align: left;
+    padding-left: 45px !important;
+}
+
+.historyHis {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px 0 25px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.hisType {
+    font-family: "Circe";
+    color: #121923;
+    letter-spacing: 0;
+    padding-top: 4px;
+}
+
+.hisDate {
+    font-family: "CirceLight";
+    color: #bec2ce;
+    padding-top: 4px;
+}
+
+.hisValue {
+    color: #02225c;
+    font-family: "CirceBold";
+    font-weight: bold;
+    padding-top: 4px;
+}
+
+.paginList {
+    margin: 30px 0 75px;
+}
+
+.paginList a {
+    color: #c2c6d1;
+    font-family: "CirceBold";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 9px 17px;
+}
+
+.paginList a:hover {
+    color: #fff;
+    background: #02225c;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.planCBg {
+    border-radius: 20px;
+    padding: 17px 45px 50px;
+    margin-top: 35px;
+}
+
+.planCHead {
+    width: 100%;
+}
+
+.planCHead td {
+    vertical-align: middle;
+}
+
+.planCHead .planPerc {
+    min-width: 450px;
+}
+
+.planCHead img {
+    margin: 0 0 10px 0;
+    height: 120px;
+}
+
+.planLine {
+    border-bottom: 2px #ebedf2 solid;
+    width: 1200px;
+    margin: 0 -45px;
+}
+
+.planCinfo {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.planCinfo img {
+    margin: 0;
+}
+
+.planCinfo td {
+    vertical-align: middle;
+    padding: 15px 8px;
+}
+
+.cabPadding {
+    padding-bottom: 50px;
+}
+
+.mdTitle {
+    margin: 60px 0 40px;
+}
+
+.mdTitle div {
+    font-family: "Circe";
+    font-size: 30px;
+    height: 46px;
+    width: 46px;
+    color: #fff;
+    border-radius: 50px;
+    background: #02225c;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.mdTitle li {
+    vertical-align: middle;
+    color: #02225c;
+    font-size: 30px;
+    font-family: "CirceExtraBold";
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.mdLabel {
+    background: #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 50px 7px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 0px 50px 7px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 50px a7px rgba(0, 0, 0, 0.07);
+    padding: 7px 35px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+}
+
+.mdLabel:hover {
+    border: 2px solid #02225c;
+}
+
+.mdLabel img {
+    margin: 0;
+    height: 120px;
+}
+
+.mdLabel .control_indicator {
+    top: 60px;
+    left: 20px;
+}
+
+.mdPay {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.mdPay td {
+    vertical-align: middle;
+    height: 136px;
+    width: 227px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.mdPay td:hover {
+    border: 2px solid #02225c;
+}
+
+.mdRules {
+    font-family: "CirceLight";
+    color: #121923;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.mdRules a {
+    text-decoration: underline;
+    color: #84b8df;
+}
+
+.settCol {
+    padding: 0;
+}
+
+.settTitle {
+    font-family: "CirceExtraBold";
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #02225c;
+    letter-spacing: 0;
+    margin: 80px 0 50px;
+}
+
+.settFormBox {
+    background: #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 50px 7px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 0px 50px 7px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 50px a7px rgba(0, 0, 0, 0.07);
+    padding: 50px;
+}
+
+.settFormBox .loginInt {
+    width: 100%;
+    padding-left: 25px;
+}
+
+.settFormBox label {
+    font-family: "CirceLight";
+    color: #c2c6d1;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.settFormBox .form-group {
+    margin: 0;
+}
+
+.settDIs {
+    background: url(../img/refBg.png) repeat-x;
+}
+
+.setRightCol {
+    padding: 0 0 0 60px;
+}
+
+.ref-list {
+    width: 100%;
+}
+
+.ref-list li:nth-child(2) {
+    border-left: 2px #f5f6f9 solid;
+    border-right: 2px #f5f6f9 solid;
+}
+
+.ref-list li {
+    width: 33%;
+    height: 130px;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+
+.refwhiteRadBg {
+    padding: 20px 0;
+}
+
+.refLine {
+    margin: 0;
+    border-bottom: 2px #ebedf2 solid;
+}
+
+.refSize {
+    font-family: "CirceLight";
+    font-size: 30px;
+    letter-spacing: 0;
+    color: #02225c;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.refSize span {
+    font-family: "CirceExtraBold";
+}
+
+.refPrev {
+    color: #84b8df;
+    font-size: 24px;
+    font-family: "CirceLight";
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.refArea {
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #121923;
+    font-family: "CirceLight";
+    min-height: 148px;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #ebedf2 solid;
+    resize: none;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.refCopy {
+    margin-top: 50px;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+    width: 1200px;
+    margin-top: 100px;
+}
+
+.footerInfo span {
+    cursor: pointer;
+}
+
+.modalDiv {
+    background: #fff;
+    padding: 50px;
+    font-size: 20px;
+    font-family: "CirceLight";
+    color: #02225c;
+}
+
+.refModal .modal-dialog {
+    margin-top: 250px;
+}
+
+.depo_plan_a {
+    border: 5px solid #02225c !important;
+}
+
+.paysysmarright {
+    margin-right: 100px;
+}
+
+.levelTitle {
+    font-family: "CirceBold";
+    font-size: 20px;
+    color: #02225c;
+}
